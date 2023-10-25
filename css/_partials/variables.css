@@ -9,6 +9,8 @@ VARIABLES
 :root {
     --ms_searchbar: #e5e5e5;
     --ms_bg-primary: #f8f9fa;
+    --ms_bg-sidebar: #051e34;
+    --ms_text-primary: #ffffff;
 }
 
 /* #endregion */

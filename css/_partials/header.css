@@ -6,10 +6,6 @@ HEADER
 
 /* #region */
 
-/* body > header {
-    height: 70px;
-} */
-
 body > header > nav {
     height: 70px;
 }

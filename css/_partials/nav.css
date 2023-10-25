@@ -8,7 +8,29 @@ NAV
 
 .ms_bottom > nav {
     width: 68px;
+    background-color: var(--ms_bg-sidebar);
+    background-image: url(../../img/sidebar-bg.png);
 }
+
+.ms_bottom > nav .ms_sidebar-menu a {
+    border-radius: 0;
+    background-color: unset;
+    border: none;
+    color: var(--ms_text-primary);
+    /* text-align: center; */
+}
+
+.ms_bottom > nav .ms_sidebar-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ms_bottom > nav .ms_sidebar-menu.ms_sidebar-menu-bottom {
+    margin-top: auto;
+}
+
+/* .ms_bottom > nav .ms_sidebar-menu a span {
+    
+} */
 
 /* #endregion */
 
