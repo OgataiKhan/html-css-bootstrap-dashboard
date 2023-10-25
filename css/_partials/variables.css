@@ -7,7 +7,8 @@ VARIABLES
 /* #region */
 
 :root {
-    --ms_test: #ffffff;
+    --ms_searchbar: #e5e5e5;
+    --ms_bg-primary: #f8f9fa;
 }
 
 /* #endregion */

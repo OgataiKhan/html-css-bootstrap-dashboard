@@ -22,7 +22,55 @@
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid flex-nowrap ms_header-container">
+                <div class="pe-4">
+                    <img class="d-none d-lg-block" src="img/logo.svg" alt="Logo desktop">
+                    <div class="ms_logo-mobile-box">
+                        <img class="d-block d-lg-none img-fluid" src="img/mobile-logo.png" alt="Logo mobile">
+                    </div>
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="ms_searchbar-icon input-group-text" id="ms_header-searchbar-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="ms_searchbar form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="addon-wrapping">
+                </div>
+                <ul class="list-group list-group-horizontal ps-2">
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                    <li class="list-group-item ms_header-menu-item"><a class="ms_bell" href="#"><i class="fa-solid fa-bell"></i></a></li>
+                </ul>
+                
+              <!-- <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                    </ul>
+                </div> -->
+            </div>
+          </nav>
     </header>
 
     <div class="d-flex ms_bottom">

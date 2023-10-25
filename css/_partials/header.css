@@ -6,8 +6,42 @@ HEADER
 
 /* #region */
 
-body > header {
+/* body > header {
     height: 70px;
+} */
+
+body > header > nav {
+    height: 70px;
+}
+
+header nav .ms_header-container,
+header nav ul li.ms_header-menu-item {
+    background-color: var(--ms_bg-primary);
+}
+
+header .ms_searchbar {
+    border-left: none;
+    background-color: var(--ms_searchbar);
+}
+
+header .ms_searchbar-icon {
+    background-color: var(--ms_searchbar);
+}
+
+header nav ul li.ms_header-menu-item {
+    border: none;
+}
+
+header nav ul li.ms_header-menu-item a {
+    color: #5b5858;
+}
+
+header nav ul li.ms_header-menu-item a.ms_bell {
+    color: #ff8f00;
+}
+
+header nav .ms_logo-mobile-box {
+    width: 50px;
 }
 
 /* #endregion */
