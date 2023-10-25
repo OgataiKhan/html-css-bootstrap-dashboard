@@ -4,3 +4,26 @@
 @import '_partials/header.css';
 @import '_partials/nav.css';
 @import '_partials/main.css';
+
+
+/* 
+********
+DEBUG
+********
+*/
+
+/* #region */
+
+header {
+    background-color: green;
+}
+
+nav {
+    background-color: blue;
+}
+
+main {
+    background-color: yellow;
+}
+
+/* #endregion */

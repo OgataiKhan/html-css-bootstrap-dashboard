@@ -4,8 +4,20 @@ NAV
 ********
 */
 
-
 /* #region */
 
+.ms_bottom > nav {
+    width: 68px;
+}
+
+/* #endregion */
+
+/* #region media queries */
+
+@media screen and (min-width: 992px) {
+    .ms_bottom > nav {
+        width: 150px;
+    }
+}
 
 /* #endregion */

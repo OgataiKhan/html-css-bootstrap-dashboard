@@ -4,8 +4,10 @@ HEADER
 ********
 */
 
-
 /* #region */
 
+body > header {
+    height: 70px;
+}
 
 /* #endregion */

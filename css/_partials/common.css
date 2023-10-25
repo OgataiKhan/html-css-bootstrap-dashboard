@@ -4,9 +4,10 @@ COMMON
 ********
 */
 
-
 /* #region */
 
-
+body > .ms_bottom {
+    height: calc(100vh - 70px);
+}
 
 /* #endregion */
