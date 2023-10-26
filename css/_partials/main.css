@@ -84,6 +84,10 @@ main .card table .ms_badge-failed {
     margin-right: 40px;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
 /* #endregion */
 
 /* #region media queries */
@@ -100,7 +104,12 @@ main .card table .ms_badge-failed {
     main .card table .ms_table-roi {
         width: 12%;
     }
-    
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
 }
 
 /* #endregion */
