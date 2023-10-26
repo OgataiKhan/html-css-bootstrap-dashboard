@@ -39,4 +39,68 @@ main .ms_main-header .ms_breadcrumb-right li {
     margin-right: 5px;
 }
 
+main .card table td:first-child {
+    width: 90%;
+}
+
+main .card table .ms_table-state,
+main .card table .ms_table-roi {
+    text-align: center;
+}
+
+main .card table th, td {
+    white-space: nowrap;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+main .card table th {
+    text-align: center;
+}
+
+main .card table th:first-child {
+    text-align: start;
+}
+
+main .card table .ms_class-avatar-box {
+    width: 30px;
+    display: inline-block;
+}
+
+main .card table .ms_badge-done {
+    background-color: #198754;
+}
+
+main .card table .ms_badge-process {
+    background-color: #ffc107;
+}
+
+main .card table .ms_badge-failed {
+    background-color: #dc3545;
+}
+
+.ms_table-col-state {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+/* #endregion */
+
+/* #region media queries */
+
+@media screen and (min-width: 768px) {
+    main .card table td:first-child {
+        width: 60%;
+    }
+    
+    main .card table .ms_table-state {
+        width: 15%;
+    }
+
+    main .card table .ms_table-roi {
+        width: 12%;
+    }
+    
+}
+
 /* #endregion */

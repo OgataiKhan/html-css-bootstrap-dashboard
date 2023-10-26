@@ -76,8 +76,8 @@
                         class="ps-2 d-none d-lg-inline">Admin</span></a>
             </div>
         </nav>
-        <main>
-            <div class="d-flex flex-column flex-md-row px-2 text-white ms_main-header">
+        <main class="overflow-y-scroll">
+            <div class="d-flex flex-column flex-md-row px-2 pt-2 text-white ms_main-header">
                 <div class="py-2 flex-grow-1 order-md-1">
                     <div class="d-flex align-items-center">
                         Nuovo Studente
@@ -125,21 +125,230 @@
                         <div class="row gy-4">
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        Featured
+                                    <div class="card-header fs-3">
+                                        Prossime classi
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Special title treatment</h5>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Nome</th>
+                                                <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                                <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 75
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        15 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-done">Done</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 76
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        16 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-done">Done</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 77
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        17 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-process">Process</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 78
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        18 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-done">Done</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 79
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        19 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-failed">Failed</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 80
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        20 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-done">Done</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 81
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        21 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-failed">Failed</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                    <div class="me-2 ms_class-avatar-box">
+                                                        <img src="img/class-avatar.png" alt="Class avatar" class="img-fluid">
+                                                    </div>
+                                                    <span class="align-middle">
+                                                        Classe 82
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell">
+                                                    <span>
+                                                        22 Feb 2021
+                                                    </span>
+                                                </td>
+                                                <td class="d-none d-md-table-cell ms_table-roi">
+                                                    <span>
+                                                        20%
+                                                    </span>
+                                                </td>
+                                                <td class="ms_table-state"><span class="badge ms_badge-done">Done</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary me-1"><i class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        Featured
+                                    <div class="card-header fs-3">
+                                        F.A.Q.
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Special title treatment</h5>
@@ -155,8 +364,8 @@
                         <div class="row gy-4">
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        Featured
+                                    <div class="card-header fs-3">
+                                        Todo
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Special title treatment</h5>
@@ -168,9 +377,6 @@
                             </div>
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        Featured
-                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Special title treatment</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional
