@@ -11,4 +11,32 @@ MAIN
     flex-grow: 1;
 }
 
+main .ms_main-header {
+    background-color: #1b72e8;
+}
+
+main .ms_main-header .ms_plus-btn {
+    width: 40px;
+    height: 40px;
+}
+
+main .ms_main-header .ms_main-header-pill {
+    background-color: #165bba;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-size: 2rem;
+    vertical-align: middle;
+    color: #ffffff;
+
+}
+
+main .ms_main-header .ms_breadcrumb-right {
+    margin: 0;
+}
+
+main .ms_main-header .ms_breadcrumb-right li {
+    margin-right: 5px;
+}
+
 /* #endregion */

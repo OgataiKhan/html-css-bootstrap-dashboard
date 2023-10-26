@@ -10,4 +10,8 @@ body > .ms_bottom {
     height: calc(100vh - 70px);
 }
 
+.ms_flex-grow-2 {
+    flex-grow: 2;
+}
+
 /* #endregion */

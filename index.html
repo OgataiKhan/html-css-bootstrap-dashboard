@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- /My css -->
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -31,40 +33,86 @@
                     </div>
                 </div>
                 <div class="input-group flex-nowrap">
-                    <span class="ms_searchbar-icon input-group-text" id="ms_header-searchbar-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="ms_searchbar form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="ms_header-searchbar-icon">
+                    <span class="ms_searchbar-icon input-group-text" id="ms_header-searchbar-icon"><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="ms_searchbar form-control"
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search"
+                        aria-describedby="ms_header-searchbar-icon">
                 </div>
                 <ul class="list-group list-group-horizontal ps-2">
-                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
-                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
-                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i
+                                class="fa-solid fa-list-ul"></i></a></li>
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i
+                                class="fa-solid fa-circle-question"></i></a></li>
+                    <li class="list-group-item d-none d-lg-block ms_header-menu-item"><a href="#"><i
+                                class="fa-solid fa-ellipsis-vertical"></i></a></li>
                     <li class="list-group-item ms_header-menu-item">
-                        
+
                         <div class="dropdown">
                             <a class="ms_bell" href="#" data-bs-toggle="dropdown"><i class="fa-solid fa-bell"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#">Profilo</a></li>
-                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </div>
-          </nav>
+        </nav>
     </header>
     <div class="d-flex ms_bottom">
         <nav class="d-flex flex-column py-3 px-2">
             <div class="ms_sidebar-menu list-group">
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-house"></i> <span class="ps-2 d-none d-lg-inline">Home</span></a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-chart-simple"></i> <span class="ps-2 d-none d-lg-inline">Stats</span></a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-signal"></i> <span class="ps-2 d-none d-lg-inline">Signal</span></a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-house"></i> <span
+                        class="ps-2 d-none d-lg-inline">Home</span></a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-chart-simple"></i>
+                    <span class="ps-2 d-none d-lg-inline">Stats</span></a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-signal"></i> <span
+                        class="ps-2 d-none d-lg-inline">Signal</span></a>
             </div>
             <div class="ms_sidebar-menu ms_sidebar-menu-bottom list-group">
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-gear"></i> <span class="ps-2 d-none d-lg-inline">Admin</span></a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-gear"></i> <span
+                        class="ps-2 d-none d-lg-inline">Admin</span></a>
             </div>
         </nav>
-        <main>main</main>
+        <main>
+            <div class="d-flex flex-column ps-2 pe-5 text-white ms_main-header">
+                <div class="py-2 flex-grow-1 d-flex align-items-center">
+                    Nuovo Studente
+                    <button type="button"
+                        class="btn btn-outline-light d-flex justify-content-center align-items-center ms-4 ms_plus-btn"><i
+                            class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="py-2 ms_flex-grow-2">
+                    <span class="fs-2 pe-2">Boolean</span>
+                    <span class="badge rounded-pill fs-6 ms_main-header-pill">Piano blaze</span>
+                    <nav style="--bs-breadcrumb-divider: '»';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item d-flex align-items-center">
+                                <a href="#"><span class="badge rounded-pill fs-6 ms_main-header-pill">3 app</span></a>
+                            </li>
+                            <li class="breadcrumb-item d-flex align-items-center" aria-current="page">
+                                <a href="#" class="d-block d-lg-none"><span
+                                        class="badge rounded-pill fs-6 ms_main-header-pill">+</span></a>
+                                <nav aria-label="breadcrumb" class="d-none d-lg-block">
+                                    <ol class="breadcrumb ms_breadcrumb-right">
+                                        <li class="d-flex align-items-center"><a href="#"><span class="badge rounded-pill fs-6 ms_main-header-pill">Boolean mobile app</span></a></li>
+                                        <li class="d-flex align-items-center" aria-current="page"><a href="#"><span class="badge rounded-pill fs-6 ms_main-header-pill">Boolean web app</span></a></li>
+                                        <li class="d-flex align-items-center" aria-current="page"><a href="#"><span class="badge rounded-pill fs-6 ms_main-header-pill">Boolean blog app</span></a></li>
+                                    </ol>
+                                </nav>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="py-2 flex-grow-1">
+                    <div>Studenti online negli ultimi 30 minuti</div>
+                    <div class="fs-2">125</div>
+                </div>
+            </div>
+
+        </main>
     </div>
 
     <!-- Bootstrap JS -->
@@ -73,4 +121,5 @@
         crossorigin="anonymous"></script>
     <!-- /Bootstrap JS -->
 </body>
+
 </html>
