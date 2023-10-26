@@ -8,6 +8,7 @@ NAV
 
 .ms_bottom > nav {
     width: 68px;
+    flex-shrink: 0;
     background-color: var(--ms_bg-sidebar);
     background-image: url(../../img/sidebar-bg.png);
 }
@@ -17,7 +18,6 @@ NAV
     background-color: unset;
     border: none;
     color: var(--ms_text-primary);
-    /* text-align: center; */
 }
 
 .ms_bottom > nav .ms_sidebar-menu a:hover {
@@ -27,10 +27,6 @@ NAV
 .ms_bottom > nav .ms_sidebar-menu.ms_sidebar-menu-bottom {
     margin-top: auto;
 }
-
-/* .ms_bottom > nav .ms_sidebar-menu a span {
-    
-} */
 
 /* #endregion */
 
