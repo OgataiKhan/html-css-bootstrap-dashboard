@@ -13,15 +13,19 @@ NAV
     background-image: url(../../img/sidebar-bg.png);
 }
 
-.ms_bottom > nav .ms_sidebar-menu a {
+.ms_bottom > nav .ms_sidebar-menu a,
+.ms_bottom > nav .ms_sidebar-menu li {
     border-radius: 0;
     background-color: unset;
     border: none;
     color: var(--ms_text-primary);
+    text-decoration: none;
 }
 
-.ms_bottom > nav .ms_sidebar-menu a:hover {
+.ms_bottom > nav .ms_sidebar-menu a.list-group-item-action:hover,
+.ms_bottom > nav .ms_sidebar-menu li:hover {
     background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
 
 .ms_bottom > nav .ms_sidebar-menu.ms_sidebar-menu-bottom {
